@@ -47,8 +47,8 @@ def draw_objects(surface, objects):
         if object['shape'] == 'line':
             if len(object['points']) > 1:
                 pygame.draw.lines(surface, color, False, object['points'], thickness)
-            for i in range(-1, len(object['points']) - 1):
-                pygame.draw.circle(surface, color, (object['points'][i][0], object['points'][i][1]), (thickness / 2))
+            # for i in range(-1, len(object['points']) - 1):
+            #     pygame.draw.circle(surface, color, (object['points'][i][0], object['points'][i][1]), (thickness / 2))
         if object['shape'] == 'straightLine':
             if len(object['points']) == 2:
                 pygame.draw.line(surface, color, object['points'][0],

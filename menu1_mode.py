@@ -2,7 +2,7 @@ import pygame
 from draw_module import color_dict  # Assuming draw_module is correctly imported
 
 clock = pygame.time.Clock()
-fps = 100
+fps = 60
 
 
 class Menu1Mode:
