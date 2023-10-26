@@ -10,7 +10,6 @@ display = pygame.display.set_mode(window_size)
 clock = pygame.time.Clock()
 fps = 60
 
-
 mode = "menu1"
 while True:
     if mode == "quit":
